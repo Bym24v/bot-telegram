@@ -2,7 +2,6 @@ var config = require('./config')
 var scanDocument = require('./controllers/scanDocument')
 var total = require('./controllers/total')
 var download = require('./controllers/download')
-var port = process.env.PORT || 8000;
 
 // Telegram
 var TelegramBot = require('node-telegram-bot-api');
@@ -17,7 +16,8 @@ var downloadPath = __dirname + "/Download/"
 bot.on("message", function(msg){
 
   var chatId = msg.chat.id
-  //console.log(msg)
+  console.log(downloadPath)
+  console.log(pwd)
 
   if (msg.document || msg.photo) {
       //console.log(downloadPath)
