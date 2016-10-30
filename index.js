@@ -2,6 +2,7 @@ var config = require('./config')
 var scanDocument = require('./controllers/scanDocument')
 var total = require('./controllers/total')
 var download = require('./controllers/download')
+var port = process.env.PORT || 8000;
 
 // Telegram
 var TelegramBot = require('node-telegram-bot-api');
