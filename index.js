@@ -9,8 +9,7 @@ var bot = new TelegramBot(config.token, {polling: true});
 
 // local  __dirname
 // heroku app
-// var downloadPath = __dirname + "\\" + "Download" + "\\"
-var downloadPath = "/app/Download/"
+var downloadPath = __dirname + "/Download/"
 
 //var resultUrl
 
