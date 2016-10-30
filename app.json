@@ -1,0 +1,5 @@
+{
+  "name": "VirusTotal",
+  "description": "VirusTotal Bot Telegram",
+  "image": "heroku/nodejs"
+}
