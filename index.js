@@ -20,7 +20,6 @@ bot.on("message", function(msg){
 
   if (msg.document || msg.photo) {
       console.log(downloadPath)
-        console.log(pwd)
 
       scanDocument.getPath(msg.document.file_id, function(path){
 
