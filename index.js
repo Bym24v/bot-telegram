@@ -7,7 +7,10 @@ var download = require('./controllers/download')
 var TelegramBot = require('node-telegram-bot-api');
 var bot = new TelegramBot(config.token, {polling: true});
 
-var downloadPath = __dirname + "\\" + "Download" + "\\"
+// local  __dirname
+// heroku app
+// var downloadPath = __dirname + "\\" + "Download" + "\\"
+var downloadPath = "/app/Download/"
 
 //var resultUrl
 
