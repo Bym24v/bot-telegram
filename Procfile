@@ -1,1 +1,1 @@
-web: bundle exec thin start -p $PORT
+worker: node app.js
