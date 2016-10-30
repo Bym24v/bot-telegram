@@ -17,7 +17,6 @@ bot.on("message", function(msg){
 
   var chatId = msg.chat.id
   console.log(downloadPath)
-  console.log(pwd)
 
   if (msg.document || msg.photo) {
       //console.log(downloadPath)
